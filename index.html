@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colección de Audios 🎶</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    h1 { color: #333; font-size: 1.5rem; margin-bottom: 5px; }
+    p { color: #666; font-size: 0.95rem; margin-top: 0; margin-bottom: 10px; }
+    
+    /* Estilo para los botones de cada audio */
+    .btn-audio {
+      text-decoration: none;
+      background: #f0f4ff;
+      color: #4f46e5;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      border: 1px solid #e0e7ff;
+    }
+    .btn-audio:hover {
+      background: #4f46e5;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Colección de Audios 🎶</h1>
+    <p>Selecciona una opción para escuchar</p>
+    
+    <!-- Cada enlace apunta a una página HTML diferente -->
+    <a href="prueba.html" class="btn-audio">🎧 Audio 1: Para ti</a>
+    <a href="audio2.html" class="btn-audio">🎧 Audio 2</a>
+    <a href="audio3.html" class="btn-audio">🎧 Audio 3</a>
+  </div>
+
+</body>
+</html>
